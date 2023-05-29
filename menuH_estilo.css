@@ -1,0 +1,67 @@
+*{margin: 0;
+  padding: 0;
+}
+
+body{
+	margin-top: 20px;
+}
+
+/* para centralizar o menu na tela */
+div{
+	width: 700px;
+	margin: 0 auto;
+}
+
+/* classes começam com ponto final */
+.menu{
+	list-style: none;
+	border: 1px solid #c0c0c0;
+	float: left;
+	font-family: arial, helvetia, sans-serif;
+	font-size: 15px;
+	
+}
+
+.menu li{
+	position: relative;
+	float: left;
+	border-right: 1px solid #c0c0c0;
+/* text-shadow: 1px 2px 4px red; */
+	
+}
+
+.menu li a {
+	color: #333333;
+	text-decoration: none;
+	padding: 5px 10px;
+	/* quando não definido o modo de exibição pode ocorrer falha indesejável ao 
+	exibir  elemento */
+	display: block;
+	/* remover o display block */
+	
+}
+
+.menu li a:hover{
+	background: #333333;
+	color: #ffffff;
+}
+
+.menu ul{
+	position: absolute;
+	top: 25px;
+	left: 0px;
+	background-color: #ffffff;
+	display: none;
+}
+
+.menu li:hover ul{
+	display: block;
+}
+
+.menu li ul li{
+	border: 1px solid #c0c0c0;
+	/*display: block; */
+	list-style: none;
+	width: 150px;
+}
+

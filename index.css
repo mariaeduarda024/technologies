@@ -1,0 +1,98 @@
+*{
+	margin:0;
+	padding:auto;
+}
+
+body{
+	font-family:Arial, sans-serif;
+}
+
+header{
+	background-color:#333333;
+	color:#ffffff;
+	padding:10px;
+	text-align:center;
+}
+
+h1{
+	margin:0;
+	font-size:24px;
+}
+
+.container{
+	max-width:960px;
+	margin:20px auto;
+	padding:0 20px;
+	color:#000000;
+}
+
+/* Estilos adicionais especificos para
+a página inicial */
+.galax{
+	background-image:url('logo.png');
+	background-position: left;
+	height: 250px;
+}
+
+.hero{
+	//background-image:url('');
+	//background-size:cover;
+	//background-position:center;
+	//background-image:url('imagens/logo.png');
+	//background-position: left;
+	//background-repeat: no-repeat;
+	height:400px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+}
+
+.hero h2{
+	font-size:36px;
+	color:#000000;
+	margin-bottom:20px;
+}
+
+.hero p{
+	font-size:18px;
+	color:#000000;
+}
+
+.featured-products{
+	display:flex;
+	justify-content:center;
+	margin-top:60px;
+}
+
+.featured-products .product{
+	width:200px;
+	margin:0 10px;
+	text-align: center;
+}
+
+.featured-products .product img{
+	width:100%;
+}
+
+.featured-products product h3{
+	font-size:18px;
+	margin:10px 0;
+}
+
+.featured-products .product p{
+	font-size:14px;
+	color:#000000;
+}
+
+footer{
+	background-color:#000000;
+	color:#ffffff;
+	padding:10px;
+	text-align:center;
+}
+
+footer p{
+	margin:0;
+	font-size:14px;
+}
